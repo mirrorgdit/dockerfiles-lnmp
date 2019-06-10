@@ -44,10 +44,10 @@ services:
         - ../logs/mysql:/var/lib/mysql-logs:rw
         - ./mysql/conf.d:/etc/mysql/conf.d:ro
       environment:
-        MYSQL_ROOT_PASSWORD: 5eNyjNf # root密码 自行修改
-        MYSQL_DATABASE: rageframe # 数据库名
-        MYSQL_USER: rageframe
-        MYSQL_PASSWORD: 2589632147
+        MYSQL_ROOT_PASSWORD: 13NyjNf # root密码 自行修改
+        MYSQL_DATABASE: ystest_db # 数据库名
+        MYSQL_USER: ystest
+        MYSQL_PASSWORD: ystest123
       restart: always
       command: "--character-set-server=utf8"
 
