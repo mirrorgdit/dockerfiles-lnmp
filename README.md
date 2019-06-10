@@ -7,21 +7,21 @@
 可以一条条命令执行docker命令来构建镜像，容器。这里推荐使用docker-compose来管理，执行项目，下面是使用流程。
 
 相关软件版本：
-- PHP 7.2
-- MySQL 5.7 (root账号:root;密码5eNyjNf,成员账号:rageframe;密码:2589632147) [如何修改?](https://github.com/jianyan74/lnmp-dockerfiles/blob/master/docs/issue.md)
+- PHP 7.3.6
+- MySQL 5.7 (root账号:root;密码13NyjNf,成员账号:ystest;密码:ystest123) [如何修改?](https://github.com/mirrorgdit/dockerfiles-lnmp/blob/master/docs/issue.md)
 - Nginx 1.12
 - Redis 4.0
-- Mongo 3.6 (完全版)
-- Elasticsearch latest (完全版)
-- Rabbitmq latest (完全版)
-- Memcached 1.5 (完全版)
+- Mongo 3.6 (拓展版)
+- Elasticsearch latest (拓展版)
+- Rabbitmq latest (拓展版)
+- Memcached 1.5 (拓展版)
 
 用到的PHP扩展
 - redis 4.0.0
 - swoole latest
 - memcached 3.0.4
 
-> 注意:标注完全版的，通过切换full分支获得文件才能安装
+> 注意:标注完全版的，通过切换extend分支获得文件才能安装
 
 #### 目录
 
@@ -47,18 +47,18 @@
 - docker-compose，文档：https://docs.docker.com/compose/install/
 - 镜像加速，参考[docker使用国内镜像](https://github.com/yeasy/docker_practice/blob/master/install/mirror.md)
        不然下载镜像速度会卡的你怀疑人生
-- 常见问题，必看。参考[这里](https://github.com/jianyan74/lnmp-dockerfiles/blob/master/docs/issue.md)
+- 常见问题，必看。参考[这里](https://github.com/mirrorgdit/dockerfiles-lnmp/blob/master/docs/issue.md)
 ```
 sudo pip install -U docker-compose
 ```
 
-#### 2.下载lnmp-dockerfiles
+#### 2.下载dockerfiles-lnmp
 直接clone：
 ```
-git clone https://github.com/jianyan74/lnmp-dockerfiles.git
-# 如果需要完整版再执行 git checkout full
-chmod -R 777 ./lnmp-dockerfiles/logs
-cd lnmp-dockerfiles/services
+git clone https://github.com/mirrorgdit/dockerfiles-lnmp.git
+# 如果需要完整版再执行 git checkout extend
+chmod -R 777 ./dockerfiles-lnmp/logs
+cd dockerfiles-lnmp/services
 ```
 
 #### 3.下载需要的拓展包
