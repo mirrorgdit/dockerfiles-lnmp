@@ -44,8 +44,8 @@ ERROR: Encountered errors while bringing up the project.
 
 编辑 `services\docker-compose.yml`文件在46行左右修改初始密码
 ```
-        MYSQL_ROOT_PASSWORD: 13eNyjNf # root密码 自行修改
-        MYSQL_DATABASE: ystest # 数据库名
+        MYSQL_ROOT_PASSWORD: 13NyjNf # root密码 自行修改
+        MYSQL_DATABASE: ystest_db # 数据库名
         MYSQL_USER: ystest
         MYSQL_PASSWORD: ystest123
 ```
