@@ -130,7 +130,7 @@ server_name [为你自己的域名];
 
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
 
-QQ群：[655084090](https://jq.qq.com/?_wv=1027&k=4BeVA2r)
+邮箱： mirrorgdit@163.com
 
 ## 引用
 
