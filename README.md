@@ -21,7 +21,7 @@
 - swoole latest
 - memcached 3.0.4
 
-> 注意:标注完全版的，通过切换extend分支获得文件才能安装
+> 注意:标注拓展版的，通过切换extend分支获得文件才能安装
 
 #### 目录
 
@@ -91,31 +91,13 @@ docker-compose down
 
 #### 5. Demo站点搭建
 
-进入app目录并克隆
+进入app目录
 
 ```
 
-cd ../app && git clone https://git.oschina.net/jianyan94/rageframe.git
-cd rageframe
-composer install
-```
+cd ../app/demo 
+此目录为demo站点目录
 
-初始化项目(注意:以下关于用到php的最好都进入php容器内去执行，避免php版本对不上)
-
-```
-php init //然后输入0回车,再输入yes回车，注意如果想修改应用入口请先看入口修改文档
-```
-
-配置数据库信息
-
-```
-找到 common/config/main-local.php 并配置相应的信息
-```
-
-安装数据库
-
-```
-php ./yii migrate/up
 ```
 
 域名解析
