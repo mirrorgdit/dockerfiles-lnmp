@@ -1,4 +1,4 @@
-FROM php:7.3-fpm
+FROM php:7.2-fpm
 MAINTAINER goozp "gzp@goozp.com"
 
 # 设置时区
