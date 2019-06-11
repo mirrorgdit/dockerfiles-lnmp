@@ -7,7 +7,7 @@
 可以一条条命令执行docker命令来构建镜像，容器。这里推荐使用docker-compose来管理，执行项目，下面是使用流程。
 
 相关软件版本：
-- PHP 7.3.6
+- PHP 7.2.19
 - MySQL 5.7 (root账号:root;密码13NyjNf,成员账号:ystest;密码:ystest123) [如何修改?](https://github.com/mirrorgdit/dockerfiles-lnmp/blob/master/docs/issue.md)
 - Nginx 1.12
 - Redis 4.0
