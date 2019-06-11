@@ -1,4 +1,4 @@
-FROM php:7.3-fpm
+FROM php:7.2-fpm
 MAINTAINER goozp "gzp@goozp.com"
 
 # 设置时区
@@ -6,7 +6,7 @@ ENV TZ=Asia/Shanghai
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 # 更新安装依赖包和PHP核心拓展
-RUN apt-get update && apt-get install -y \
+RUN apt-get clean && apt-get update && apt-get install -y \
         git \
         vim \
         curl \
