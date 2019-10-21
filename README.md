@@ -48,9 +48,10 @@
 - 镜像加速，参考[docker使用国内镜像](https://github.com/yeasy/docker_practice/blob/master/install/mirror.md)
        不然下载镜像速度会卡的你怀疑人生
 - 常见问题，必看。参考[这里](https://github.com/mirrorgdit/dockerfiles-lnmp/blob/master/docs/issue.md)
-```
-sudo pip install -U docker-compose
-```
+
+- 环境安装，看这里(https://github.com/mirrorgdit/dockerfiles-lnmp/blob/master/docs/start-environment.md)
+
+
 
 #### 2.下载dockerfiles-lnmp
 直接clone：
