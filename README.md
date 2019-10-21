@@ -49,7 +49,7 @@
        不然下载镜像速度会卡的你怀疑人生
 - 常见问题，必看。参考[这里](https://github.com/mirrorgdit/dockerfiles-lnmp/blob/master/docs/issue.md)
 
-- 环境安装，看这里(https://github.com/mirrorgdit/dockerfiles-lnmp/blob/master/docs/start-environment.md)
+- 环境安装，看[这里](https://github.com/mirrorgdit/dockerfiles-lnmp/blob/master/docs/start-environment.md)
 
 
 
