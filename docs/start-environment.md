@@ -153,16 +153,3 @@ $ docker pull gcr.azk8s.cn/google_containers/hyperkube-amd64:v1.9.2
 
 源文章 [docker使用国内镜像](https://github.com/yeasy/docker_practice/blob/master/install/mirror.md)
 
-### 初始化环境
-
-1、直接clone项目
-
-```
-git clone https://github.com/mirrorgdit/dockerfiles-lnmp.git
-```
-
-2、进入目录
-
-```
-cd dockerfiles-lnmp
-```
